@@ -1,0 +1,138 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+
+.empTab {
+  margin-top: 26px;
+}
+.navLink {
+  color: #ebebeb;
+  border: none;
+  margin-right: 34px;
+  opacity: 0.6;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.navLink.active {
+  color: #fff !important;
+}
+
+.liveTrackingButton {
+  margin-left: auto;
+  display: block;
+}
+
+.consignmentInfo {
+  color: #000;
+  font-size: 12px;
+  margin-top: 70px;
+  display: block;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.consignmentInfo span {
+  color: #ff6347;
+}
+.tabContainer {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  min-height: 375px;
+  margin-top: 30px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 29px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #183641;
+  font-weight: 700;
+}
+
+.addMore {
+  color: #fe6a57;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.table td {
+  padding: 12px;
+}
+
+.name {
+  color: #361515;
+  font-size: 15px;
+}
+
+.number {
+  color: #361515;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.size {
+  color: #361515;
+  font-size: 15px;
+}
+
+.view a {
+  color: #ff6347;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.table tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.table tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.table tr td {
+  border: 1px solid #eaeaea;
+  border-right: unset;
+  border-left: unset;
+}
+.table tr td:first-child {
+  border-left: 1px solid #eaeaea;
+}
+.table tr td:last-child {
+  border-right: 1px solid #eaeaea;
+}
+.tabKey {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+@media only screen and (max-width: 991px) {
+  .proMain {
+    order: 2;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+  }
+}

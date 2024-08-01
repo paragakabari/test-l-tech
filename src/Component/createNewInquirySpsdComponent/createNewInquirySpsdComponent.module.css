@@ -1,0 +1,349 @@
+.inquiryCheck {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+}
+.shipText p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.shipText span {
+  font-size: 14px;
+  font-weight: 300;
+}
+.VehicleSelect span {
+  padding: 12px 18px;
+  border: 1px solid #222222;
+  border-radius: 100px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #222222;
+}
+.VehicleSelect .selected {
+  color: #ff6a57;
+  border-color: #ff6a57;
+}
+.VehicleSelect {
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+.typeBg {
+  background: #fff;
+  padding: 22px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.typeBg P {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 17px !important;
+}
+.locationDrop {
+  height: 40px;
+  width: 40px;
+  background-color: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ff6a57;
+  border-radius: 100px;
+}
+.typeBgTitle {
+  font-size: 17px;
+  color: #ff6a57;
+  padding-bottom: 13px !important;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #b3b3b3;
+  font-weight: 400 !important;
+}
+.searchInput {
+  position: relative;
+  width: 100%;
+}
+.searchInput input {
+  background-color: #f7f7f7;
+  height: 58px;
+  width: 100%;
+  border: unset;
+  border-radius: 100px;
+  padding: 0px 24px;
+}
+.searchInput i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+  color: #707070;
+}
+.locationMap {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  background-color: #00000095;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  right: 0;
+}
+
+.locationMap p {
+  margin-bottom: 0px !important;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.locationMap div {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.typeBg h6 {
+  font-size: 16px;
+  margin-bottom: 10px !important;
+}
+.dashedBox {
+  padding: 22px;
+  border: 1px dashed #c1c1c1;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 100%;
+  color: #707070;
+  margin-top: 20px;
+}
+.ConsignorTitle {
+  font-size: 20px !important;
+  padding-bottom: 20px !important;
+  margin-bottom: 20px !important;
+  border-bottom: 1px solid #000;
+}
+.ConsignorAddress span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #22222250;
+}
+.ConsignorAddress p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #222222;
+}
+.ConsignorAddress {
+  margin-bottom: 40px;
+}
+.detailsBox {
+  padding: 20px 17px;
+  background-color: #f7f7f7;
+  border: 1px solid #22222220;
+  font-size: 16px;
+  color: #22222270;
+  border-radius: 5px;
+}
+.selectBoxCus {
+  padding: 8px 17px;
+  border: 1px solid #222222;
+  font-size: 17px;
+}
+.inputInfo {
+  font-size: 17px;
+}
+.PackageTblCustom {
+  padding: 9px 27px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.PackageTblCustom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.PackageTblCustom p {
+  font-size: 17px;
+  font-weight: 400 !important;
+}
+.PackageTblCustom span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.statusDot {
+  height: 10px;
+  width: 10px;
+  background-color: #5c00e2;
+}
+.servicesTitle {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.servicesTitle p {
+  font-size: 17px;
+  font-weight: 400 !important;
+  margin-bottom: 0px !important;
+}
+.serviceCheck {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c3c3c3;
+  color: #fff;
+}
+.serviceSelection {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  min-height: 100px;
+  cursor: pointer;
+}
+.serviceImg {
+  height: 24px;
+  width: 24px;
+  background-color: #f5f5f5;
+}
+.serviceSelection span {
+  font-size: 14px;
+}
+.CarrierTab {
+  padding: 20px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 33.33%;
+  text-align: center;
+  border-bottom: 1px solid #70707030;
+  color: #27272750;
+}
+.CarrierTabActive {
+  color: #272727;
+  border-color: #ff6767;
+}
+.SearchInput {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #707070;
+  padding: 12px 17px;
+  min-width: 400px;
+}
+.filterButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.filterButton p {
+  font-size: 17px;
+  margin-bottom: 0px !important;
+  font-weight: 400;
+}
+.CarrierTblHeader {
+  padding: 20px 0px;
+  border-bottom: 1px solid #70707030;
+  margin-bottom: 0px !important;
+}
+.QualifiedCard {
+  padding: 20px 10px;
+  background-color: #efefef;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.QualifiedCardProfile {
+  height: 50px;
+  width: 50px;
+  /* background-color: #fff; */
+  border-radius: 100px;
+  overflow: hidden;
+}
+.QualifiedCardProfile img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.QualifiedCardProfileStatus {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  background-color: #2f9637;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.QualifiedCard p {
+  font-size: 14px;
+  margin: 0px !important;
+  font-weight: 500;
+}
+.QualifiedCard small {
+  font-size: 12px;
+}
+.QualifiedCard span {
+  font-size: 10px;
+}
+.QualifiedCardProfileAvatar {
+  height: 20px;
+  width: 20px;
+  border-radius: 100px;
+  border: 1px solid #707070;
+  font-size: 8px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.QualifiedCard i {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.QualifiedCardMain .QualifiedCards{
+  max-height: 430px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+.QualifiedCards::-webkit-scrollbar {
+  display: none;
+}
+@media only screen and (max-width: 880px) {
+  .tblHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .SearchInputMain {
+    width: 100%;
+  }
+  .SearchInput {
+    width: 100%;
+    min-width: unset;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .tabsMain {
+    flex-direction: column !important;
+  }
+
+}

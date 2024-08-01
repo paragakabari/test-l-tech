@@ -1,0 +1,23 @@
+.layout {
+  margin-top: -70px;
+  margin-bottom: 50px;
+}
+.bgRed {
+  background-image: linear-gradient(
+    156deg,
+    #ff6a57 0%,
+    #fdba77 100%
+  ) !important;
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .empty {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+  }
+}

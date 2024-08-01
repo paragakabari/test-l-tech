@@ -1,0 +1,16 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+.layoutSecond {
+  margin-top: -110px;
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+    margin-top: 0px;
+  }
+  .layoutSecond {
+    margin-top: -80px;
+  }
+}

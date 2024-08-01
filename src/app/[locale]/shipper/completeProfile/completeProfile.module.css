@@ -1,0 +1,112 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+.profileBg {
+  background-color: #fff;
+  padding: 19px 32px;
+  border-radius: 10px;
+  min-height: 300px;
+}
+.lightBoldLabel {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+.searchInput {
+  position: relative;
+  width: 100%;
+}
+.searchInput input {
+  background-color: #f7f7f7;
+  height: 58px;
+  width: 100%;
+  border: unset;
+  border-radius: 100px;
+  padding: 0px 24px;
+}
+.searchInput i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+  color: #707070;
+}
+.VehicleSelect span {
+  padding: 12px 18px;
+  border: 1px solid #707070;
+  border-radius: 100px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #272727;
+}
+.VehicleSelect .selected {
+  color: #933c8e;
+  border-color: #933c8e;
+}
+.VehicleSelect {
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+.flexSearch {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+.profileS {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.profileModal h1 {
+  font-size: 55px;
+  font-weight: 700;
+  max-width: 1140px;
+  text-align: center;
+  margin: auto !important;
+}
+.profileModal p {
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 1140px;
+  text-align: center;
+  margin: 39px auto !important;
+}
+.profileModal {
+  padding: 100px 30px;
+  position: relative;
+}
+.lotiAnimation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.lotiAnimation svg {
+  height: 400px !important;
+  width: auto;
+}
+.CompleteProfileTabMain{
+  overflow-y: auto;
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+  }
+  .profileModal h1{
+    font-size: 34px;
+  }
+  .profileModal p{
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .flexSearch {
+    flex-wrap: wrap;
+  }
+}

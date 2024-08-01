@@ -1,0 +1,59 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+
+.empTab {
+  margin-top: 26px;
+}
+.navLink {
+  color: #ebebeb;
+  border: none;
+  margin-right: 34px;
+  opacity: 0.6;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.navLink.active {
+  color: #fff !important;
+}
+
+.liveTrackingButton {
+  margin-left: auto;
+  display: block;
+}
+
+.consignmentInfo {
+  color: #000;
+  font-size: 12px;
+  margin-top: 70px;
+  display: block;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.consignmentInfo span {
+  color: #ff6347;
+}
+.tabContainer {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  min-height: 375px;
+  margin-top: 30px;
+}
+.tabKey {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+@media only screen and (max-width: 991px) {
+  .proMain {
+    order: 2;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+  }
+}

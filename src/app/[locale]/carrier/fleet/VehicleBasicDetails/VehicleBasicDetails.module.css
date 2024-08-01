@@ -1,0 +1,46 @@
+.layout {
+  margin-top: -140px;
+  padding-bottom: 50px;
+}
+.whiteBg {
+  background-color: #fff;
+  padding: 38px 48px;
+  border-radius: 20px;
+}
+.thankText {
+  text-align: center;
+  padding: 50px 30px;
+}
+.thankText p {
+  font-size: 18px;
+  margin: 7px auto 32px auto !important;
+  max-width: 710px;
+  display: block;
+  
+}
+.thankModel {
+  border-radius: 30px;
+}
+.thankText h4 {
+  font-size: 39px;
+  max-width: 687px;
+  margin: auto !important;
+  display: block;
+}
+.fileAnimation {
+  width: 220px;
+  height: 150px;
+  background-color: #f0f0f0;
+  margin: auto;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+    margin-top: -130px;
+  }
+  .whiteBg {
+    padding: 20px;
+  }
+}

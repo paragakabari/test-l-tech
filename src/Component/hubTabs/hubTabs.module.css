@@ -1,0 +1,241 @@
+.newTab {
+  background-color: #fff;
+  padding: 8px 23px;
+  border-radius: 10px;
+  color: #272727;
+  font-size: 13px;
+  width: 100%;
+  box-shadow: 0px 3px 99px #dbdbdb29;
+}
+.newTab p {
+  max-width: 150px;
+}
+.newTabActive {
+  background-image: linear-gradient(
+    156deg,
+    #ff6a57 0%,
+    #fdba77 100%
+  ) !important;
+  color: #fff !important;
+}
+.layoutSecond {
+  margin-top: -110px;
+}
+.whiteBg {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.VehicleSelect span {
+  padding: 12px 18px;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.VehicleSelect .selected {
+  color: #fe6a57;
+  border-color: #fe6a57;
+}
+.VehicleSelect {
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+.countryImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.countryImg img{
+  object-fit: cover;
+}
+.CountrySelection p {
+  font-size: 15px;
+}
+.CountrySelection span {
+  font-size: 10px;
+  color: #989898;
+}
+.formContainerMain select,
+.formContainerMain input {
+  height: 50px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+}
+.orTag {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: #fff;
+  box-shadow: 0px 3px 26px #00000029;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  z-index: 9;
+  position: relative;
+}
+.dragPin {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+}
+.dragPin p {
+  font-size: 12px;
+  font-weight: 300;
+}
+.dragPin::before {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 1px;
+  left: 20px;
+  background-color: #cccccc;
+}
+.HubSideMain {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.HubSideMain h1 {
+  font-size: 33px;
+  font-weight: 700;
+  padding-bottom: 15px !important;
+  border-bottom: 1px solid #d4d4d4;
+}
+.HubSideMain h1 small {
+  font-size: 24px;
+  font-weight: 400;
+}
+.hubCountry span {
+  font-size: 12px;
+  color: #fe6a57;
+}
+.hubCountry h6 {
+  font-size: 15px;
+  font-weight: 700;
+}
+.hubCountry {
+  border-bottom: 1px solid #d4d4d4;
+
+  padding: 15px 0px !important;
+}
+.avgSection {
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.avgSection span {
+  height: 16px;
+  width: 1px;
+  background-color: #707070;
+}
+.avgSection small {
+  font-size: 10px;
+  color: #8d8d8d;
+  max-width: 48px;
+}
+.hubCityDesc h2 {
+  font-size: 16px;
+}
+.hubCityDesc h2 span {
+  color: #8d8d8d;
+}
+.hubCityDesc small {
+  font-size: 10px;
+  color: #8d8d8d;
+}
+.hubCity {
+  padding: 15px 0px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.sideDetails h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+.sideDetails h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.sideDetails p {
+  font-size: 14px;
+}
+.sideDetails small {
+  font-size: 12px;
+}
+.sideDetails span {
+  height: 45px;
+  width: 48px;
+  background-color: #29595d;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.sideDetails {
+  padding: 15px 0px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.descCenter h4 {
+  font-size: 16px;
+}
+.flexContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  row-gap: 5px;
+  margin-top: 12px;
+}
+.flexContent p {
+  font-size: 12px;
+}
+.descCenter {
+  padding-top: 15px;
+}
+.hubModal {
+  padding: 50px;
+  text-align: center;
+}
+.hubModal h4 {
+  font-size: 30px;
+}
+.hubModal p {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 32px !important;
+}
+.lotiAnimation {
+  max-width: 400px;
+  margin: auto;
+}
+@media screen and (max-width: 991px) {
+  .dragPin {
+    flex-direction: column;
+  }
+  .dragPin::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 25%;
+    background-color: #cccccc;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hubModal {
+    padding: 0px;
+  }
+  .whiteBg {
+    padding: 20px;
+  }
+}

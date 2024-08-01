@@ -1,0 +1,270 @@
+.layout {
+  margin-top: -90px;
+  padding-bottom: 50px;
+}
+
+.publishedInquires .empTabPublishedInquires {
+  margin-top: 10px;
+}
+.publishedInquires .navLink {
+  color: #ebebeb;
+  border: none;
+  margin-right: 34px;
+  opacity: 0.6;
+  font-size: 17px;
+  white-space: nowrap;
+  font-weight: 400;
+}
+.publishedInquires .navLink.active {
+  color: #fff !important;
+}
+.publishedInquires .empTabPublishedInquires .nav-link.active {
+  color: #fff !important;
+  opacity: 1;
+  border-bottom: unset !important;
+}
+.publishedInquires .tabKey {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+.typeBg {
+  background: #fff;
+  padding: 22px;
+  border-radius: 10px;
+  /* margin-top: 20px; */
+}
+.TBDBox {
+  background: #fff;
+  border-radius: 10px;
+}
+.TBDBox h1 {
+  text-align: center;
+  font-size: 38px;
+  padding: 50px 20px !important;
+}
+.locationDrop {
+  height: 40px;
+  width: 40px;
+  background-color: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ff6a57;
+  border-radius: 100px;
+}
+.typeBgTitle {
+  font-size: 17px;
+  color: #ff6a57;
+  padding-bottom: 13px !important;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #b3b3b3;
+  font-weight: 400 !important;
+}
+.searchInput {
+  position: relative;
+  width: 100%;
+}
+.searchInput input {
+  background-color: #f7f7f7;
+  height: 58px;
+  width: 100%;
+  border: unset;
+  border-radius: 100px;
+  padding: 0px 24px;
+}
+.searchInput i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+  color: #707070;
+}
+.locationMap {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  background-color: #00000095;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  right: 0;
+}
+.locationMap p {
+  margin-bottom: 0px !important;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.locationMap div {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.ConsignorTitle {
+  font-size: 20px !important;
+  padding-bottom: 20px !important;
+  margin-bottom: 20px !important;
+  border-bottom: 1px solid #000;
+}
+.ConsignorAddress span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #22222250;
+}
+.ConsignorAddress p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #222222;
+}
+.ConsignorAddress {
+  padding-left: 20px;
+  border-left: 1px solid #b3b3b3;
+}
+
+.selectInput {
+  background-color: #f7f7f7;
+  height: 58px;
+  width: 100%;
+  border: unset;
+  border-radius: 100px;
+  padding: 0px 24px;
+}
+.selectImg {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  border-radius: 100%;
+}
+.DropOffDetailsText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.DropOffDetailsText p {
+  font-size: 12px;
+}
+.DropOffDetailsBox {
+  background-color: #d3d3d320;
+  border: 1px solid #70707020;
+  padding: 20px;
+  border-radius: 20px;
+}
+.DropOffDetailsBoxAvatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: #ff6a57;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DropOffDetailsBox p {
+  font-size: 12px;
+}
+.DropOffDetailsBox h1 {
+  font-size: 18px;
+  padding: 8px 0px 13px 0px !important;
+}
+.DropOffDetailsBox span {
+  font-size: 13px;
+}
+.map {
+  border-radius: 20px;
+}
+.congratulationsModal {
+  padding: 50px 20px;
+}
+.congratulationsModal h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.congratulationsModalBox h5 {
+  font-size: 24px;
+}
+.congratulationsModalBox p {
+  font-size: 18px;
+}
+.congratulationsModalBox span {
+  font-size: 16px;
+  font-weight: 300;
+}
+.congratulationsModalImage {
+  background-color: #fff;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+.congratulationsModalBox {
+  background-color: #d3d3d330;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 30px 0px;
+}
+.tabAvatar {
+  height: 47px;
+  width: 47px;
+  background-color: #f5f5f5;
+  border-radius: 100%;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  background-color: #f8fde9;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.avatar img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+.BidAwardedTableMain th {
+  text-align: center;
+}
+.BidAwardedTableMain td {
+  text-align: center;
+}
+.BidAwardedTableMain th:first-child,
+.BidAwardedTableMain th:nth-child(2) {
+  text-align: left;
+}
+.BidAwardedTableMain td:first-child,
+.BidAwardedTableMain td:nth-child(2) {
+  text-align: left;
+}
+.BidAwardedTableMain tbody tr {
+  transition: 0.5s;
+  opacity: 0.5;
+}
+.BidAwardedTableMain tbody tr:hover {
+  box-shadow: 0px 3px 56px #00000029;
+  position: relative;
+  z-index: 99;
+  opacity: 1;
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+    margin-top: 0px;
+  }
+  .layoutSecond {
+    margin-top: -90px;
+  }
+}

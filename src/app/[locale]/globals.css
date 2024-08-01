@@ -1,0 +1,429 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+body {
+  background-color: #f7f7f7 !important;
+}
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #2f9637 !important;
+}
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #fc6a57 !important;
+}
+.CircularProgressbar .CircularProgressbar-text {
+  font-size: 32px !important;
+  fill: #000 !important;
+  font-weight: 700;
+}
+.progress {
+  height: 5px !important;
+  width: 100% !important;
+}
+.progress-bar {
+  background-color: #fe6a57 !important;
+}
+.pointer {
+  cursor: pointer;
+}
+.subLink .fade {
+  position: absolute;
+}
+.subLink .fade.show {
+  position: relative;
+}
+.secondButton {
+  background-color: #5284d3 !important;
+}
+.blackButton {
+  background-color: #272727 !important;
+}
+.ResponsiveSideBar .btn-close {
+  position: absolute;
+  right: 20px;
+}
+.primaryLink {
+  color: #fe6a57;
+}
+.breadcrumb-divider li a {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #fff;
+  position: relative;
+}
+.breadcrumb-divider li a::before {
+  content: ">";
+  color: #fff;
+  position: relative;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.breadcrumb-item a {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #fff;
+  text-decoration: none;
+}
+.darkButton {
+  color: #ffffff;
+  background-color: #000 !important;
+  border-radius: 100px !important;
+  height: fit-content;
+  cursor: pointer !important;
+}
+.opacity-4 {
+  opacity: 0.4;
+}
+.outlineButton {
+  background-color: transparent !important;
+  border-radius: 100px !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  cursor: pointer !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.blueButton {
+  background-color: #5284d3 !important;
+}
+
+.form-label {
+  font-size: 14px;
+  color: #757575;
+}
+.modal-90w {
+  max-width: none !important;
+  width: 90vw !important;
+}
+.permissions-modal-main {
+  padding: 50px 50px !important;
+}
+.permissions-modal-header h1 {
+  font-size: 20px;
+}
+.permissions-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.permissions-modal {
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #dddd;
+  margin-top: 30px;
+}
+.resendButton,
+.activeButton {
+  padding: 4px 11px !important;
+  font-size: 14px !important;
+}
+.resendButton {
+  background-color: #fda953 !important;
+}
+.activeButton {
+  background-color: #2fa03d !important;
+}
+.empTab .nav-link.active {
+  color: #fff !important;
+  opacity: 1;
+  border-bottom: 2px solid #fc6a57 !important;
+}
+.empTab .nav-link:hover {
+  color: #fff !important;
+  border-color: #fc6a57 !important;
+  opacity: 1 !important;
+}
+.empTabPublishedInquires .nav-link.active {
+  color: #fff !important;
+  opacity: 1;
+}
+.empTabPublishedInquires .nav-link:hover {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+.check-main .form-check-input:checked {
+  background-color: #fe6a57 !important;
+  border-color: #fe6a57 !important;
+}
+.check-main .form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(254, 106, 87, 0.25) !important;
+}
+.vehicleStatus .form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(254, 106, 87, 0.25) !important;
+}
+.vehicleStatus .form-check-label {
+  font-size: 13px !important;
+  font-weight: 500;
+  color: #272727;
+}
+.vehicleStatus .form-check-input:checked {
+  background-color: #fe6a57 !important;
+  border-color: #fe6a57 !important;
+}
+
+.vehicleStatus .form-check-input {
+  background-color: #f2f2f2;
+  border: unset !important;
+}
+.DropOff .progress {
+  max-width: 200px !important;
+}
+.DropOff .progress .progress-bar {
+  background-color: #29595d !important;
+}
+.contractList th,
+.contractList td {
+  text-align: center;
+}
+.contractList th:first-child,
+.contractList td:first-child {
+  text-align: left;
+}
+.selectBox {
+  width: 100% !important;
+  padding: 10px !important;
+  border-radius: 10px !important;
+  border: 1px solid #70707030 !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='%23333' d='M6 8l4 4 4-4z'/%3E%3C/svg%3E")
+    no-repeat right 10px center;
+  background-color: #fff;
+  background-size: 25px;
+  min-width: 250px;
+}
+.selectBox::-ms-expand {
+  display: none;
+}
+.selectBoxSide {
+  min-width: unset !important;
+}
+.com-input {
+  border-radius: 10px !important;
+  border: 1px solid #70707030 !important;
+  background-color: #fff;
+  height: 46px !important;
+}
+.com-label {
+  font-size: 17px;
+  font-weight: 700;
+  color: #272727;
+  margin-bottom: 11px;
+}
+.com-label-second {
+  font-size: 15px;
+  font-weight: 400;
+  color: #636363;
+  margin-bottom: 11px;
+}
+.com-input-second {
+  border-radius: 10px !important;
+  border: 1px solid #70707030 !important;
+  background-color: #fff;
+  height: 50px !important;
+}
+.input-prefix p {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 17px;
+  font-weight: 400 !important;
+}
+.input-prefix {
+  position: relative;
+}
+.FadeDetails.show {
+  position: relative;
+}
+.FadeDetails {
+  position: absolute;
+}
+.colorBox {
+  height: 38px;
+  width: 38px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  border-radius: 100px;
+}
+.com-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.com-p {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 8px !important;
+}
+.long-Input {
+  height: 100% !important;
+}
+.lightButton {
+  background-color: #ededed30 !important;
+  border-color: #70707030 !important;
+  color: #333333 !important;
+  border: 1px solid #70707030 !important;
+}
+.com-textarea {
+  border: 1px solid #cbcbcb;
+  border-radius: 10px;
+}
+
+.expenseTypeSelected {
+  border-color: #fe6a57 !important;
+}
+.blue-progress .progress-bar {
+  background-color: #557cf6 !important;
+}
+.Royal-Blue-progress .progress-bar {
+  background-color: #7148e4 !important;
+}
+.Mulberry-progress .progress-bar {
+  background-color: #ca3e78 !important;
+}
+.Bittersweet-progress .progress-bar {
+  background-color: #ee735f !important;
+}
+.outlineDropdown .dropdown-toggle {
+  background-color: transparent !important;
+  border-radius: 100px !important;
+  color: #000 !important;
+  border: 1px solid #000 !important;
+  cursor: pointer !important;
+}
+.action-Button {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background-color: #ffffff10;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  flex-direction: column;
+  right: 0;
+  display: flex;
+
+  cursor: pointer;
+  justify-content: center;
+}
+.action-Button p {
+  font-size: 12px !important;
+}
+.pickup {
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 100px;
+}
+.selectedButton {
+  background-color: #4586ee !important;
+  color: #fff !important;
+}
+.custom-slider .rc-slider-step {
+  height: 10px;
+}
+.custom-slider .rc-slider-rail {
+  height: 10px;
+  border-radius: 100px;
+}
+.custom-slider .rc-slider-track,
+.custom-slider .rc-slider-tracks {
+  height: 10px;
+  border-radius: 100px;
+}
+.rc-slider-handle:active {
+  border-color: unset;
+  box-shadow: unset;
+}
+.custom-slider .rc-slider-handle {
+  border: unset;
+  height: 20px;
+  width: 20px;
+  background-color: #ff6a57;
+  margin-top: -6px;
+}
+.rc-slider-mark-text {
+  font-size: 14px;
+  color: #000 !important;
+  white-space: nowrap;
+  position: relative;
+}
+.custom-slider .rc-slider-handle-dragging {
+  border-color: unset !important;
+  box-shadow: unset !important;
+}
+
+.custom-slider .rc-slider-mark {
+  top: 20px;
+}
+.custom-slider .rc-slider-track {
+  background-color: #ff6a57 !important;
+}
+.horizontal-scroll {
+  overflow: hidden;
+  overflow-x: auto;
+  clear: both;
+  width: 100%;
+}
+.whiteButton {
+  background-color: #fff !important;
+  color: #ff6a57 !important;
+}
+.violetButton {
+  background-color: #933c8e !important;
+}
+.greenButton {
+  background-color: #1ea787 !important;
+}
+.font-13 {
+  font-size: 13px !important;
+}
+.cmPrefix {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  color: #989898;
+  font-size: 16px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 768px) {
+  .action-Button {
+    position: unset;
+    top: unset;
+    transform: unset;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .modal-90w {
+    width: unset !important;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .DropOff .progress {
+    max-width: unset !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .permissions-modal-main {
+    padding: 30px !important;
+  }
+}
+.newDrop a:hover {
+  color: red !important;
+}

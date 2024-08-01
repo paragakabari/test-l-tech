@@ -1,0 +1,128 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+.layoutSecond {
+  margin-top: -150px;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  background-color: #f8fde9;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.avatar img {
+  object-fit: cover;
+}
+.actionButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.editButton {
+  color: #272727;
+  font-size: 20px;
+}
+
+.deleteButton {
+  color: #c65050;
+  font-size: 20px;
+}
+.tableMainBg {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 35px 24px;
+}
+.SearchInput {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #707070;
+  padding: 12px 17px;
+  min-width: 400px;
+}
+.filterButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.filterButton p {
+  font-size: 17px;
+}
+.cardView {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+}
+.memberName {
+  font-size: 18px;
+}
+.lastLogin {
+  font-size: 12px;
+  opacity: 0.4;
+}
+.departmentNameText {
+  font-size: 14px;
+}
+.changeDepartment {
+  font-size: 12px;
+  color: #5284d3;
+  cursor: pointer;
+}
+.doj {
+  font-size: 12px;
+}
+.closeButton {
+  color: #933c8e;
+}
+.statusButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 990px) {
+  .cardView {
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .tblHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .SearchInput {
+    width: 100%;
+    min-width: unset;
+  }
+  .SearchInputMain {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+    margin-top: 0px;
+  }
+  .layoutSecond {
+    margin-top: -80px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .cardView {
+    grid-template-columns: auto;
+  }
+}

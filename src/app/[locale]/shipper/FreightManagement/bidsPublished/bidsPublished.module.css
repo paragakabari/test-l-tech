@@ -1,0 +1,268 @@
+.layout {
+  margin-top: -150px;
+  padding-bottom: 50px;
+}
+
+.overActionButton {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+.bidWhiteBg {
+  padding: 22px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.bidWhiteBgAvatar {
+  height: 60px;
+  width: 60px;
+  background-color: #f5f5f5;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.bidWhiteBgAvatar img{
+  object-fit: cover;
+}
+.bidWhiteBg h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.sideInfoBid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+  margin: 15px 0px;
+  border-top: 1px solid #70707030;
+  border-bottom: 1px solid #70707030;
+}
+.sideInfoBid p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fc6a57;
+}
+.sideInfoBid small {
+  font-size: 13px;
+}
+.sideInfoBid span {
+  font-size: 14px;
+  padding: 14px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  color: #272727;
+}
+.pickupBoxHead {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #70707020;
+}
+.pickupBox p {
+  font-size: 12px;
+}
+.pickupBoxTitle {
+  font-weight: 700;
+  min-width: 200px;
+}
+.pickupBoxFooter {
+  padding-top: 10px;
+  margin-top: 15px;
+  border-top: 1px solid #70707020;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.SubmissionSummaryMain h1 {
+  font-size: 26px !important;
+  font-weight: 400 !important;
+}
+.RoadTransportTitle {
+  text-align: end;
+}
+.RoadTransportTitle p {
+  font-size: 20px;
+}
+.RoadTransportBox small {
+  font-size: 10px;
+}
+.RoadTransportBox {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+.RoadTransportBox h6 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.ProposalCopy {
+  width: 100%;
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 50px 10px;
+}
+.ProposalCopy h1 {
+  font-size: 26px;
+  font-family: 400;
+}
+.publishedInquiresPrice {
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+.priceBackupText {
+  padding: 40px 25px;
+}
+.priceBackupText h1 {
+  font-size: 20px;
+  color: #ff6a57;
+  font-weight: 500;
+}
+.boldTextPrice small {
+  font-size: 12px;
+}
+.boldTextPrice span {
+  width: 100%;
+  height: 1px;
+  background-color: #e9e9e9;
+  display: block;
+}
+.boldTextPrice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.deviderMain {
+  width: 100%;
+  border-bottom: 1px dashed #70707070;
+  display: block;
+  position: relative;
+}
+.deviderMain::before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: #f7f7f7;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.deviderMain::after {
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: #f7f7f7;
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.DiscountTag {
+  padding: 7px 19px;
+  border: 1px dashed #ff6a57;
+  background-color: #ff6a570f;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.modalAnimation {
+  width: 312px;
+  height: 200px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.RequoteRequestBody {
+  padding: 30px;
+  position: relative;
+}
+.RequoteRequestBody h1 {
+  text-align: center;
+  font-size: 32px;
+}
+.RequoteRequestBody p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 300;
+  padding: 13px 0px !important;
+}
+.RequoteRequestBody textarea {
+  width: 100%;
+  border: unset;
+  background-color: #dddddd40;
+  padding: 22px;
+  border-radius: 10px;
+  height: 134px;
+}
+.closeButton {
+  height: 40px;
+  width: 40px;
+  background-color: #7070701a;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.logBoxAvatar{
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.logBoxAvatar  img{
+  object-fit: cover;
+}
+.logBox{
+  background-color: #90909010;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logBox p{
+  margin: 0px !important;
+  padding: 0px !important;
+  font-size: 18px;
+}
+.logBox h6{
+  font-size: 16px;
+}
+.logBox span{
+  font-size: 14px;
+}
+@media only screen and (max-width: 1100px) {
+  .layout {
+    margin-top: -83px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+    margin-top: 0px;
+  }
+  .RequoteRequestBody {
+    padding: 30px 10px !important;
+    position: relative;
+  }
+  .modalAnimation{
+    width: 100%;
+  }
+}

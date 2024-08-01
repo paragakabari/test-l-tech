@@ -1,0 +1,112 @@
+.layout {
+  margin-top: 0px;
+  padding-bottom: 50px;
+}
+.layoutSecond {
+  margin-top: -150px;
+}
+.whiteOutlineButton {
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.tableMainBg {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 35px 24px;
+}
+.SearchInput {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #707070;
+  padding: 12px 17px;
+  min-width: 400px;
+}
+.filterButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.filterButton p {
+  font-size: 17px;
+}
+.IsTbl table thead th {
+  font-weight: 700 !important;
+  text-align: center;
+}
+.IsTbl table thead th:first-child {
+  text-align: left;
+}
+.IsTbl table tbody td {
+  text-align: center;
+}
+.IsTbl table tbody td:first-child {
+  text-align: left;
+}
+.inquiriesSubmissions {
+  display: flex;
+  gap: 25px;
+  overflow-x: auto;
+}
+.inquiriesSubmissionsCol {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.inquiriesSubmissionsTitle {
+  color: #fff;
+  margin-bottom: 7px !important;
+}
+.blueButton {
+  background-color: #136bb1 !important;
+}
+@media only screen and (max-width: 990px) {
+  .cardView {
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .tblHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .SearchInput {
+    width: 100%;
+    min-width: unset;
+  }
+  .SearchInputMain {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+    margin-top: 0px;
+  }
+  .layoutSecond {
+    margin-top: -100px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .cardView {
+    grid-template-columns: auto;
+  }
+}

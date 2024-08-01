@@ -1,0 +1,78 @@
+.layout {
+  margin-top: -150px;
+  padding-bottom: 50px;
+}
+
+.bgRed {
+  background-image: linear-gradient(
+    156deg,
+    #ff6a57 0%,
+    #fdba77 100%
+  ) !important;
+  color: #fff !important;
+}
+
+.departmentName {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.publishedInquires .empTabPublishedInquires {
+  margin-top: 10px;
+}
+.publishedInquires .navLink {
+  color: #ebebeb;
+  border: none;
+  margin-right: 34px;
+  opacity: 0.6;
+  font-size: 17px;
+  white-space: nowrap;
+  font-weight: 400;
+}
+.publishedInquires .navLink.active {
+  color: #fff !important;
+}
+.publishedInquires .empTabPublishedInquires .nav-link.active {
+  color: #fff !important;
+  opacity: 1;
+  border-bottom: unset !important;
+}
+.publishedInquires .tabKey {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.overActionButton {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+    margin-top: 0px;
+  }
+  .layoutSecond {
+    margin-top: -90px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .tblHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .SearchInput {
+    width: 100%;
+    min-width: unset;
+  }
+  .SearchInputMain {
+    width: 100%;
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "hub-flow",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/react-chartjs-2": "^2.5.7",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "chart.js": "^4.4.3",
+    "faker": "^6.6.6",
+    "google-map-react": "^2.2.1",
+    "keen-slider": "^6.8.6",
+    "lottie-react": "^2.4.0",
+    "lottie-web": "^5.12.2",
+    "next": "14.2.3",
+    "next-intl": "^3.14.0",
+    "rc-slider": "^10.6.2",
+    "react": "^18",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-bootstrap": "^2.10.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18",
+    "next-pwa": "^5.6.0"
+  },
+  "devDependencies": {
+    "@types/faker": "5.5.9",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "Faker": "^0.7.2",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,201 @@
+.whiteBg {
+  background-color: #fff;
+  padding: 38px 48px;
+  border-radius: 20px;
+}
+.whiteBgCustomPadding {
+  padding: 30px 40px !important;
+}
+.FadeMain {
+  font-size: 22px;
+}
+.FadeMain p {
+  font-weight: 700;
+}
+.SpecificationsMain {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.DimensionDetailsSec p {
+  font-size: 14px;
+  color: #272727;
+}
+.DimensionDetailsSec h5 {
+  font-size: 15px;
+  color: #272727;
+  font-weight: 700;
+  margin-bottom: 8px !important;
+}
+.DimensionDetailsSec input {
+  max-width: 100px;
+}
+.DimensionDetailsSec {
+  margin-bottom: 34px !important;
+}
+.customCheck {
+  padding: 9px 16px;
+  border: 1px solid #70707030;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #989898;
+  cursor: pointer;
+}
+.customCheck.selected {
+  color: #fe6a57;
+  border-color: #fe6a57;
+}
+.vImg {
+  height: 300px;
+  width: 100%;
+  /* max-width: 232px; */
+  /* background-color: #ddd; */
+  border-radius: 20px;
+  position: relative;
+}
+.vImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.vImg span {
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  background-color: #f5f5f5;
+  position: absolute;
+  bottom: 0;
+  right: -40px;
+}
+.SpecificationsComInput h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #272727;
+  margin-bottom: 8px !important;
+}
+.WheelsTyresTbl td {
+  border-bottom: unset !important;
+  vertical-align: middle;
+}
+.WheelsTyresTbl thead td {
+  font-size: 15px;
+  font-weight: 700;
+}
+.WheelsTyresTbl tbody td {
+  font-size: 15px;
+  font-weight: 700;
+}
+.WheelsTyresTblMain {
+  border-top: 1px solid #70707030;
+  padding-top: 30px;
+}
+.customCheckImg {
+  padding: 12px 16px;
+  display: flex;
+  gap: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc7c7;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #272727;
+  cursor: pointer;
+}
+.customCheckImg.selected {
+  color: #fe6a57;
+  border-color: #fe6a57;
+}
+.customCheckImg img {
+  border-radius: 100px;
+}
+.InsuranceImg {
+  width: 100%;
+  background-color: #f5f5f5;
+  /* height: 250px; */
+  border-radius: 20px;
+}
+.InsuranceImg img{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  /* object-fit: contain; */
+}
+.table tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.table tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.table tr td {
+  border: 1px solid #eaeaea;
+  border-right: unset;
+  border-left: unset;
+}
+.table tr td:first-child {
+  border-left: 1px solid #eaeaea;
+}
+.table tr td:last-child {
+  border-right: 1px solid #eaeaea;
+}
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+.table thead th {
+  border-bottom: unset;
+  font-size: 14px;
+  color: #707070;
+}
+.table td {
+  padding: 12px;
+  font-size: 18px;
+}
+.linkMain {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fe6a57;
+  text-decoration: none;
+}
+.thankText {
+  text-align: center;
+  padding: 50px 0px;
+}
+.thankText p {
+  font-size: 18px;
+  margin: 7px 0px 32px 0px !important;
+}
+.thankModel {
+  border-radius: 30px;
+}
+.thankText h4 {
+  font-size: 39px;
+}
+.fileAnimation {
+  width: 220px;
+  height: 150px;
+  background-color: #f0f0f0;
+  margin: auto;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+.docUpload {
+  background-color: #f2f2f2;
+  border: 1px solid #70707020;
+  padding: 28px;
+  border-radius: 10px;
+  margin-top: 24px;
+}
+.docUpload h2{
+  font-size: 17px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+  .whiteBg {
+    padding: 20px !important;
+  }
+}

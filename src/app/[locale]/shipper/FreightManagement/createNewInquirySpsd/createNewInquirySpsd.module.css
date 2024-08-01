@@ -1,0 +1,91 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+
+.empTab {
+  margin-top: 26px;
+}
+.navLink {
+  color: #ebebeb;
+  border: none;
+  margin-right: 34px;
+  opacity: 0.6;
+  font-size: 17px;
+  white-space: nowrap;
+}
+.empTab .nav-link.active {
+  color: #fff !important;
+  opacity: 1;
+  border-bottom: 2px solid #fc6a57 !important;
+}
+.tabKey {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+.newInqSide {
+  background-color: #fff;
+  border-radius: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+.newInqSide h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.newInqSide p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.inquiryModals h1 {
+  font-size: 26px;
+  text-align: center;
+}
+.inquiryModals h1 span {
+  font-size: 46px;
+  text-align: center;
+}
+.inquiryModals p {
+  font-size: 18px;
+  color: #707070;
+  margin: 20px auto !important;
+  text-align: center;
+}
+.inquiryModals {
+  padding: 50px 20px;
+}
+.modalTrackCard {
+  background-color: #d3d3d330;
+  padding: 20px;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.modalTrackCard span{
+  width: 40%;
+  border-bottom: 1px dashed #222222;
+}
+.modalTrackCard small {
+  font-size: 14px;
+  color: #22222250;
+}
+.modalTrackCard h6 {
+  font-size: 14px;
+  color: #222222;
+}
+@media only screen and (max-width: 991px) {
+  .proMain {
+    order: 2;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+  }
+}

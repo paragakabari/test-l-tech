@@ -1,0 +1,37 @@
+.layout {
+    margin-top: -70px;
+    padding-bottom: 50px;
+  }
+  .layoutSecond {
+    margin-top: -150px;
+  }
+  .bgRed {
+    background-image: linear-gradient(
+      156deg,
+      #ff6a57 0%,
+      #fdba77 100%
+    ) !important;
+    color: #fff !important;
+  }
+  .bgGreen {
+    background-color: #49a55d;
+  }
+  .bgBlue {
+    background-color: #5485d3;
+  }
+  .bgLightYellow {
+    background-color: #ffe7ce;
+  }
+  .bgLightBlue {
+    background-color: #c6f4ff;
+  }
+  @media only screen and (max-width: 768px) {
+    .layout {
+      padding: 0px 20px !important;
+      margin-top: 0px;
+    }
+    .layoutSecond {
+      margin-top: -80px;
+    }
+  }
+  

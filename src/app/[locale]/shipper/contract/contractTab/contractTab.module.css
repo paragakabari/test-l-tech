@@ -1,0 +1,40 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+
+.navLink {
+  color: #ebebeb;
+  border: none;
+  margin-right: 34px;
+  opacity: 0.6;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.navLink.active {
+  color: #fff !important;
+}
+.tabContainer {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  min-height: 375px;
+  margin-top: 30px;
+}
+
+.tabKey {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .proMain {
+    order: 2;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+  }
+}

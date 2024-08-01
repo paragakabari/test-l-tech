@@ -1,0 +1,582 @@
+.table tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.table tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.table tr td {
+  border: 1px solid #eaeaea;
+  border-right: unset;
+  border-left: unset;
+}
+.table tr td:first-child {
+  border-left: 1px solid #eaeaea;
+}
+.table tr td:last-child {
+  border-right: 1px solid #eaeaea;
+}
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+.table thead th {
+  border-bottom: unset;
+  font-size: 14px;
+  color: #707070;
+}
+.table td {
+  padding: 12px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.whiteBg {
+  background-color: #fff;
+  padding: 19px 36px;
+  border-radius: 20px;
+}
+.name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.name {
+  font-size: 15px;
+  font-weight: 700;
+}
+.name small {
+  font-size: 12px;
+  font-weight: 400;
+}
+.headerTbl h1 {
+  font-size: 22px;
+}
+.headerTbl p {
+  font-size: 15px;
+}
+.Brand {
+  height: 44px;
+  width: 44px;
+  background-color: #f5f5f5;
+  border-radius: 100%;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  /* overflow: hidden; */
+}
+.Brand img {
+  border-radius: 100px;
+  object-fit: cover;
+}
+.BrandSection {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.BrandMain {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.VehicleSelect span {
+  padding: 12px 18px;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.VehicleSelect .selected {
+  color: #fe6a57;
+  border-color: #fe6a57;
+}
+.VehicleSelect {
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+.SelectedBrand i {
+  position: absolute;
+  top: 0;
+  color: #ff6a57;
+  right: 0;
+}
+.sidebarTitle {
+  font-size: 22px;
+  font-weight: 700;
+}
+.emptyBox {
+  text-align: center;
+  padding: 50px 20px;
+}
+.emptyBox h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px 0px 12px 0px !important;
+}
+.emptyBox h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.sideBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.tabMainTitle {
+  font-size: 28px !important;
+}
+.cusSide {
+  width: 500px;
+}
+.ServiceNo {
+  font-size: 17px;
+  font-weight: 700;
+}
+.ServiceNo i {
+  font-size: 30px;
+  color: #fe6a57;
+}
+.ServiceNo small {
+  font-size: 14px;
+  font-weight: 400;
+}
+.ServiceAddress {
+  font-size: 16px;
+  font-weight: 700;
+}
+.ServiceAddress span {
+  font-size: 12px;
+  font-weight: 400;
+}
+.Odometer {
+  font-size: 14px;
+}
+.Downtime {
+  font-size: 15px;
+  font-weight: 700;
+}
+.Resolved {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #5daf6f;
+  color: #fff;
+}
+.onTime {
+  font-size: 12px;
+  padding: 5px 10px;
+  background-color: #ff898920;
+  color: #ff8989;
+  border-radius: 100px;
+}
+.delayed {
+  font-size: 12px;
+  padding: 5px 10px;
+  background-color: #27272720;
+  color: #272727;
+  border-radius: 100px;
+}
+.initials {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fe6a57;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+}
+.scheduledBy {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.scheduledByText {
+  font-size: 14px;
+  font-weight: 700;
+}
+.scheduledByTextSpan {
+  font-size: 11px;
+  font-weight: 400;
+}
+.tblImg {
+  height: 35px;
+  width: 35px;
+  /* background-color: #f5f5f5; */
+}
+.addHistoryMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #fff;
+  padding: 14px 23px;
+  border-radius: 10px;
+}
+.addHistory {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-x: auto;
+}
+.addHistoryText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 400px;
+}
+.addHistoryText p {
+  font-size: 17px;
+}
+.addHistoryTag {
+  min-width: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.addHistoryIcon {
+  min-width: 200px;
+  font-size: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  color: #707070;
+}
+.addHistoryIcon i {
+  cursor: pointer;
+}
+.signOff {
+  background-color: #fff;
+  padding: 31px 41px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.signOff h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.signOff h2 {
+  font-size: 17px;
+  margin-bottom: 7px !important;
+}
+.mapLink {
+  font-size: 16px;
+  color: #fe6a57;
+  text-decoration: none;
+}
+.expenseType {
+  padding: 20px;
+  border: 1px solid #f4f4f4;
+  border-radius: 10px;
+}
+.expenseTypeText {
+  padding: 13px 16px;
+  border: 1px solid #d5d5d5;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.hiddenSearch {
+  border: unset;
+}
+.hiddenSearch:focus {
+  outline: unset;
+}
+.rightHeader p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.rightHeader small {
+  font-size: 12px;
+  color: #fe6a57;
+}
+.rightHeader {
+  text-align: right;
+}
+.ExpenseDetailsTable thead th {
+  padding: 0px 10px !important;
+  font-size: 12px;
+  color: #000000;
+}
+.ExpenseDetailsTable tbody td {
+  padding: 15px 10px !important;
+  border-top: unset !important;
+  border-right: unset !important;
+  border-left: unset !important;
+  border-bottom: 1px solid #70707020;
+}
+.ExpenseDetailsTable {
+  border: 1px solid #70707020;
+  padding: 10px;
+  border-radius: 30px;
+}
+.expenseTypeMain p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.expenseTypeMain small {
+  font-size: 12px;
+  font-weight: 300;
+}
+.expenseTypeMain {
+  border-bottom: unset !important;
+}
+.secTd {
+  font-size: 12px !important;
+  padding: 12px 20px !important;
+  color: #707070 !important;
+}
+.secTable thead th {
+  padding: 0px 20px !important;
+  font-size: 12px !important;
+  color: #272727 !important;
+}
+.SupportingFiles h2 {
+  font-size: 14px;
+  margin-bottom: 14px !important;
+  margin-top: 19px !important;
+}
+.TakeAction h5 {
+  font-size: 14px;
+  color: #707070;
+  margin-bottom: 9px !important;
+  margin-top: 30px !important;
+}
+.dashboardCard {
+  border-radius: 10px;
+  border-color: #e9f0f9;
+}
+
+.progressContainer {
+  display: flex;
+  align-items: center;
+  padding: 15px 0px;
+  gap: 15px;
+  border-bottom: 1px solid #f5f5f5;
+  font-weight: 500;
+}
+.progressLabel {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.progressBarCustom {
+  flex: 2;
+}
+
+.issueLog {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.resolvedCard {
+  padding: 5px 10px;
+  background-color: #5daf6f;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 12px !important;
+}
+.timeCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5edf7;
+  padding: 4px 0px 20px 0px;
+}
+.timeCardHeader h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.cardHeadTitleText {
+  font-size: 14px;
+  margin: 5px 0px 10px 0px !important;
+  color: #6c6c6c;
+}
+.CardDetailsText {
+  font-size: 14px;
+}
+.issueLogCard {
+  border-radius: 15px;
+  position: relative;
+  padding: 16px 20px;
+}
+.issueLogCard::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 80px;
+  width: 3px;
+  background-color: #6cb67c;
+  content: "";
+}
+.metSmall {
+  font-weight: 400 !important;
+  font-size: 12px;
+}
+.cardHeadTitle {
+  font-size: 16px;
+  font-weight: 700;
+}
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.metrics {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  gap: 20px;
+}
+
+.metric {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f6fbff;
+  width: 50%;
+  border-radius: 10px;
+  border: 1px solid #ede8fd;
+}
+.progressContainerMetrics {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.progressContainerMetric p {
+  margin: 0;
+  font-weight: 700;
+}
+.metric p {
+  margin: 0;
+  font-weight: 700;
+}
+.chartContainer {
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+.issueLogHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.issueLogContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dropdownToggle::after {
+  display: none;
+}
+.progressIcon {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 5px solid #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProgressBar {
+  height: 10px !important;
+  max-width: 200px;
+}
+.mapOverview {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 500px;
+}
+.mapContainer {
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+.overviewDistance p {
+  font-size: 12px;
+}
+.overviewDistance h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.overviewDistance {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #ffffff90;
+  border-radius: 5px;
+  border: 1px solid #d0e0fc;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+.dIconOverview {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: flex;
+  color: #5088e7;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+@media only screen and (max-width: 707px) {
+  .BrandMain {
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+  }
+  .BrandMain .form-group {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .progressContainer {
+    flex-wrap: wrap;
+  }
+  .ProgressBar {
+    max-width: 90%;
+  }
+  .metric {
+    width: 100%;
+  }
+  .metrics {
+    flex-direction: column;
+  }
+  .emptyBox img {
+    width: 100%;
+    height: auto;
+  }
+  .whiteBg {
+    padding: 10px 15px;
+  }
+  .rightHeader {
+    width: 100%;
+  }
+}

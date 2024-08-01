@@ -1,0 +1,156 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+.layoutSecond {
+  margin-top: -150px;
+}
+.bgRed {
+  background-image: linear-gradient(
+    156deg,
+    #ff6a57 0%,
+    #fdba77 100%
+  ) !important;
+  color: #fff !important;
+}
+
+.departmentName {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.WarehouseAddressTblMain th {
+  text-align: center;
+}
+.WarehouseAddressTblMain td {
+  text-align: center;
+}
+.WarehouseAddressTblMain th:first-child {
+  text-align: left;
+}
+.WarehouseAddressTblMain td:first-child {
+  text-align: left;
+}
+.statusButton {
+  background-color: #2fa03d;
+  padding: 2px 14px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 100px;
+  width: fit-content;
+  margin: auto;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14.4px;
+  cursor: pointer;
+}
+
+.editButton {
+  color: #272727;
+  font-size: 20px;
+}
+
+.deleteButton {
+  color: #c65050;
+  font-size: 20px;
+}
+.tableMainBg {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 35px 24px;
+}
+.SearchInput {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #707070;
+  padding: 12px 17px;
+  min-width: 400px;
+}
+.filterButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.filterButton p {
+  font-size: 17px;
+}
+.managerIcon {
+  height: 28px;
+  width: 28px;
+  border: 1px solid #000;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  margin: auto;
+}
+.warehouseDeleteModalHeader h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.warehouseDeleteModalHeader p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.userIcon {
+  display: flex;
+  align-items: center;
+}
+.userIcon img {
+  border-radius: 100px;
+  object-fit: cover;
+}
+.userIcon div {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #c1c1c1;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5d84cd;
+  background-color: #fff;
+  margin-left: -10px;
+}
+.warehouseDeleteModalBody p {
+  font-size: 12px;
+  margin-bottom: 18px !important;
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+    margin-top: 0px;
+  }
+  .layoutSecond {
+    margin-top: -80px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .tblHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .SearchInput {
+    width: 100%;
+    min-width: unset;
+  }
+  .SearchInputMain {
+    width: 100%;
+  }
+}

@@ -1,0 +1,118 @@
+.actionButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14.4px;
+  cursor: pointer;
+}
+.totalTabMain {
+  min-height: 400px;
+}
+.editButton {
+  color: #272727;
+  font-size: 20px;
+}
+.totalTabMainHr {
+  height: 100%;
+  background-color: #f0f0f0;
+  width: 1px;
+  display: block;
+  margin: auto;
+}
+.deleteButton {
+  color: #c65050;
+  font-size: 20px;
+}
+.tableMainBg {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 35px 24px;
+}
+.SearchInput {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #707070;
+  padding: 12px 17px;
+  min-width: 400px;
+}
+.filterButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.filterButton p {
+  font-size: 17px;
+}
+.chartColor {
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+}
+.chartDataWraper {
+  max-width: 250px;
+}
+.totalTabHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.totalTabHeader h1 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.totalTabHeader p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.totalTabMain table thead th {
+  text-align: center;
+}
+.totalTabMain table thead th:first-child {
+  text-align: left;
+}
+.RevisionRequestedTab table th:nth-child(4) {
+  text-align: left;
+}
+.userIcon {
+  display: flex;
+  align-items: center;
+}
+.userIcon img {
+  border-radius: 100px;
+  object-fit: cover;
+}
+.userIcon div {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #ff6a57;
+  margin-left: -10px;
+}
+.DiscardedTab table thead th:last-child {
+  text-align: end;
+}
+@media only screen and (max-width: 880px) {
+  .tblHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .SearchInput {
+    width: 100%;
+    min-width: unset;
+  }
+  .SearchInputMain {
+    width: 100%;
+  }
+}

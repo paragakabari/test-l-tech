@@ -1,0 +1,210 @@
+.simpleWhiteCard {
+  width: 100%;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 20px;
+}
+.simpleWhiteCard h1 {
+  font-size: 32px;
+}
+.simpleWhiteCard h2 {
+  font-size: 24px;
+}
+.simpleWhiteCard small {
+  font-size: 12px;
+}
+.simpleWhiteCard p {
+  font-size: 14px;
+}
+.ContractOverviewDetails {
+  padding: 18px 22px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.ContractOverviewDetails small {
+  font-size: 11px;
+}
+.NumberBox {
+  height: 31px;
+  width: 31px;
+  background-color: #322d3e;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  align-items: center;
+  color: #fff;
+  z-index: 1;
+}
+.shipmentCardBox {
+  background-color: #fff;
+  padding: 18px 26px;
+  border-radius: 10px;
+  width: 100%;
+}
+.shipmentCardBox p {
+  font-size: 18px;
+}
+.shipmentCardBox span {
+  font-size: 14px;
+}
+.NumberBoxActive {
+  background-color: #ff6a57;
+}
+.ContractRouteMain::before {
+  position: absolute;
+  left: 15px;
+  height: 100%;
+  border-left: 2px dashed #000;
+  content: "";
+}
+.ContractRouteMain:first-child::before {
+  border-left: 2px solid #ff6a57;
+}
+.ContractRouteMain:nth-child(2)::before {
+  border-left: 2px solid #ff6a57;
+}
+.table tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.documentTitle{
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 10px !important;
+  margin-bottom: 25px !important;
+}
+.table tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.table tr td {
+  border: 1px solid #eaeaea;
+  border-right: unset;
+  border-left: unset;
+}
+.table tr td:first-child {
+  border-left: 1px solid #eaeaea;
+}
+.table tr td:last-child {
+  border-right: 1px solid #eaeaea;
+}
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+.table thead th {
+  border-bottom: unset;
+  font-size: 14px;
+  color: #707070;
+}
+.table td {
+  padding: 12px;
+  font-size: 18px;
+}
+.TermsAvatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: #e24c3f;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContractPaymentTermsMain {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px 40px;
+}
+.ContractPaymentTermsMainTop h1 {
+  font-size: 32px;
+}
+.ContractPaymentTermsMainTop p {
+  font-size: 14px;
+  margin-top: 5px !important;
+}
+.milestone {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.milestone p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.milestone small {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.milestone::before {
+  height: 90px;
+  width: 5px;
+  background-color: #0f5ad3;
+  content: "";
+}
+.milestone2::before {
+  height: 90px;
+  width: 5px;
+  background-color: #f8bcbc;
+  content: "";
+}
+.paymentOptionMain small {
+  font-size: 12px;
+}
+.paymentOptionMain {
+  margin-top: 30px;
+}
+.paymentBox {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px dashed #ff6a57;
+  padding: 15px;
+  box-shadow: 0px 3px 6px #0000000d;
+}
+
+.publishedInquiresPrice {
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+.priceBackupText {
+  padding: 40px 25px;
+}
+.priceBackupText h1 {
+  font-size: 20px;
+  color: #ff6a57;
+  font-weight: 500;
+}
+.boldTextPrice small {
+  font-size: 12px;
+}
+.boldTextPrice span {
+  width: 100%;
+  height: 1px;
+  background-color: #e9e9e9;
+  display: block;
+}
+.boldTextPrice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.DiscountTag {
+  padding: 7px 19px;
+  border: 1px dashed #ff6a57;
+  background-color: #ff6a570f;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.numberBoxMain {
+  position: relative;
+  z-index: 1;
+}

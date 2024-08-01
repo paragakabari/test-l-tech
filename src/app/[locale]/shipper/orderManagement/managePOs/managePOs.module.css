@@ -1,0 +1,69 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+.layoutSecond {
+  margin-top: -150px;
+}
+
+.departmentName {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.publishedInquires .empTabPublishedInquires {
+  margin-top: 10px;
+}
+.publishedInquires .navLink {
+  color: #ebebeb;
+  border: none;
+  margin-right: 34px;
+  opacity: 0.6;
+  font-size: 17px;
+  white-space: nowrap;
+  font-weight: 400;
+}
+.publishedInquires .navLink.active {
+  color: #fff !important;
+}
+.publishedInquires .empTabPublishedInquires .nav-link.active {
+  color: #fff !important;
+  opacity: 1;
+  border-bottom: unset !important;
+}
+.publishedInquires .tabKey {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+
+.tableMainBg {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 35px 24px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+    margin-top: 0px;
+  }
+  .layoutSecond {
+    margin-top: -80px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .tblHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .SearchInput {
+    width: 100%;
+    min-width: unset;
+  }
+  .SearchInputMain {
+    width: 100%;
+  }
+}

@@ -1,0 +1,91 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+.layoutSecond {
+  margin-top: -110px;
+}
+.CountrySelection p {
+  font-size: 15px;
+}
+.CountrySelection span {
+  font-size: 10px;
+  color: #989898;
+}
+.whiteBg {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.countryImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.countryImg img {
+  object-fit: cover;
+}
+.formContainerMain select,
+.formContainerMain input {
+  height: 50px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+}
+.dragPin {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+}
+.dragPin p {
+  font-size: 12px;
+  font-weight: 300;
+}
+.dragPin::before {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 1px;
+  left: 20px;
+  background-color: #cccccc;
+}
+.orTag {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: #fff;
+  box-shadow: 0px 3px 26px #00000029;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  z-index: 9;
+  position: relative;
+}
+.whiteBg h1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+  .layout {
+    margin-top: -70px;
+    padding: 0px 20px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .dragPin {
+    flex-direction: column;
+  }
+  .dragPin::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 25%;
+    background-color: #cccccc;
+  }
+}

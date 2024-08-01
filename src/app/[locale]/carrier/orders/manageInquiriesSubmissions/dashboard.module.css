@@ -1,0 +1,36 @@
+.layout {
+  margin-top: -70px;
+  padding-bottom: 50px;
+}
+.layoutSecond {
+  margin-top: -150px;
+}
+.smallCard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+}
+.smallCard i {
+  font-size: 25px;
+  color: #456fe0;
+}
+.smallCard h1 {
+  font-size: 44px;
+}
+.smallCard p {
+  font-size: 14px;
+}
+.comTitle {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+  .layout {
+    padding: 0px 20px !important;
+    margin-top: 0px;
+  }
+  .layoutSecond {
+    margin-top: -80px;
+  }
+}
